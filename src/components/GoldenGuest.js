@@ -1,5 +1,5 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import Slider from 'react-slick';
 import sliderImage1 from '../images/slider/1.png';
 import sliderImage2 from '../images/slider/2.png';
 import sliderImage3 from '../images/slider/3.png';
@@ -13,6 +13,27 @@ import sliderImage10 from '../images/slider/10.png';
 import sliderImage11 from '../images/slider/11.png';
 
 const GoldenGuest = () => {
+  const settings = {
+    className: 'center',
+    centerMode: true,
+    infinite: true,
+    centerPadding: '60px',
+    slidesToShow: 5,
+    speed: 1000,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
       <section className='w-full mt-8 sm:mt-14 mx-auto bg-gray-section px-4 py-8 sm:pt-20 sm:pb-12'>
@@ -40,54 +61,48 @@ const GoldenGuest = () => {
           </div>
         </div>
         <div>
-          <Swiper
-            slidesPerView={6}
-            spaceBetween={15}
-            freeMode={false}
-            autoplay={true}
-            pagination={{
-              clickable: true,
-            }}
-            className='mySwiper'
-          >
-            <SwiperSlide>
-              <img src={sliderImage1} alt='' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={sliderImage2} alt='' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={sliderImage3} alt='' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={sliderImage4} alt='' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={sliderImage5} alt='' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={sliderImage6} alt='' />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={sliderImage7} alt='' />
-            </SwiperSlide>
+          <Slider {...settings}>
+            <div className='mx-2'>
+              <img src={sliderImage1} alt='' className='max-w-full' />
+            </div>
 
-            <SwiperSlide>
-              <img src={sliderImage8} alt='' />
-            </SwiperSlide>
+            <div className='mx-2'>
+              <img src={sliderImage2} alt='' className='max-w-full' />
+            </div>
 
-            <SwiperSlide>
-              <img src={sliderImage9} alt='' />
-            </SwiperSlide>
+            <div className='mx-2'>
+              <img src={sliderImage3} alt='' className='max-w-full' />
+            </div>
 
-            <SwiperSlide>
-              <img src={sliderImage10} alt='' />
-            </SwiperSlide>
+            <div className='mx-2'>
+              <img src={sliderImage4} alt='' className='max-w-full' />
+            </div>
+            <div className='mx-2'>
+              <img src={sliderImage5} alt='' className='max-w-full' />
+            </div>
+            <div className='mx-2'>
+              <img src={sliderImage6} alt='' className='max-w-full' />
+            </div>
 
-            <SwiperSlide>
-              <img src={sliderImage11} alt='' />
-            </SwiperSlide>
-          </Swiper>
+            <div className='mx-2'>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>
+
+            <div className='mx-2'>
+              <img src={sliderImage8} alt='' className='max-w-full' />
+            </div>
+
+            <div className='mx-2'>
+              <img src={sliderImage9} alt='' className='max-w-full' />
+            </div>
+            <div className='mx-2'>
+              <img src={sliderImage10} alt='' className='max-w-full' />
+            </div>
+
+            <div className='mx-2'>
+              <img src={sliderImage11} alt='' className='max-w-full' />
+            </div>
+          </Slider>
         </div>
       </section>
     </>

@@ -5,8 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import store from './redux/store';
 import { Provider } from 'react-redux';
 import './styles/index.css';
-import 'swiper/swiper-bundle.min.css';
-import 'swiper/swiper.min.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import 'aos/dist/aos.css';
 
 ReactDOM.render(
