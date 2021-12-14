@@ -124,7 +124,7 @@ const Hero = () => {
                 paddingTop: '50%',
               }}
             ></div>
-            <img src={hero} alt='hero' className='hero__image' />
+            {/* <img src={hero} alt='hero' className='hero__image' /> */}
           </div>
         </div>
       </div>
