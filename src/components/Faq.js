@@ -5,7 +5,7 @@ const Faq = () => {
   return (
     <>
       <section className='mt-10 sm:mt-8' id='faq'>
-        <div className='max-w-7xl mx-auto px-4 sm:mt-24 sm:px-0 lg:mt-32 text-center'>
+        <div className='max-w-7xl mx-auto px-4 sm:mt-24 sm:px-0 lg:mt-4 text-center'>
           <h2 className='text-primary sm:text-center text-xl sm:text-4xl tracking-wide leading-normal font-bold mb-6 sm:mb-10 uppercase'>
             Frequently Asked Questions
             <p className='pt-4 text-sm text-center'>

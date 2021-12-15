@@ -14,7 +14,7 @@ const About = () => {
       >
         <div className='grid sm:grid-cols-12 items-center'>
           <div
-            className='row-start-1 sm:row-start-auto sm:pl-16 sm:text-left lg:col-span-6 p-0 lg:p-0'
+            className='row-start-1 sm:row-start-auto sm:pl-16 sm:text-left md:col-span-12 lg:col-span-6 p-0 lg:p-0'
             data-aos='fade-right'
             data-aos-duration='1000'
           >
@@ -47,12 +47,12 @@ const About = () => {
             </div>
           </div>
           <div
-            className='sm:col-start-auto sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center'
+            className='sm:col-start-auto sm:max-w-lg sm:mx-auto md:col-span-12 md:mt-6 lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center'
             data-aos='fade-left'
             data-aos-duration='1000'
           >
             <div className='flex-shrink-0 w-full'>
-              <div className='grid gap-2 sm:gap-5 grid-cols-2'>
+              <div className='grid gap-2 sm:gap-5 grid-cols-2 '>
                 <div className='grid__image'>
                   <img src={about1} alt='' />
                 </div>
@@ -74,7 +74,7 @@ const About = () => {
           className='mt-10 mx-auto max-w-7xl px-4 sm:px-0 sm:mt-24 lg:mt-32'
         >
           <div className='grid sm:grid-cols-12 items-center'>
-            <div className='mt-5 sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center'>
+            <div className='mt-5 sm:max-w-lg sm:mx-auto md:col-span-12  lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center'>
               <div className='flex-shrink-0 w-full'>
                 <div className='grid gap-2 sm:gap-4'>
                   <div>
@@ -89,7 +89,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className='sm:pl-16 sm:text-left lg:col-span-6'>
+            <div className='sm:pl-16 sm:text-left md:col-span-12  lg:col-span-6'>
               {/* <p className='label-title'>
                 Features
                 <span className='hidden sm:block label-line'></span>

@@ -1,24 +1,35 @@
 import React from 'react';
+import spot1 from '../images/spot/spot1.jpg';
+import spot2 from '../images/spot/spot2.png';
+import spot3 from '../images/spot/spot3.png';
 
 const JoinDiscord = () => {
   return (
     <>
       <section className='mt-10 sm:mt-auto py-6 sm:py-20 text-center'>
         <h2 className='text-primary uppercase text-lg font-semibold mb-6'>
-          THE PARTY NEVER STOPS
+          Get Your Spot now
         </h2>
-        <h3 className='mx-auto flex flex-col sm:flex-row text-3xl sm:text-5xl font-bold mb-10 tracking-wide justify-center'>
-          <span className='w-auto text-default'>Get Aped with Us!</span>
-          <span className='w-auto text-default sm:text-white sm:ml-3'>
-            Join our Discord
-          </span>
-        </h3>
+        <div className='mt-0 mx-auto max-w-7xl px-4 sm:mt-0 sm:px-0 pb-10 sm:pb-14 text-center'>
+          <div className='py-6 grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-4'>
+            <div className='spot__image'>
+              <img src={spot1} alt='' className='max-w-full' />
+            </div>
+            <div className='spot__image'>
+              <img src={spot2} alt='' className='max-w-full' />
+            </div>
+
+            <div className='spot__image'>
+              <img src={spot3} alt='' className='max-w-full' />
+            </div>
+          </div>
+        </div>
         <div className='container flex flex-row justify-center flex-wrap gap-4 mx-auto'>
           <div className='inline-block btn-gradient p-0.5 btn-animate max-w-max '>
             <a
               target='_blank'
               className='uppercase text-default font-bold text-sm tracking-wider h-14 px-8 flex justify-center items-center btn-bg-gradient focus:outline-none'
-              href='#'
+              href='https://discord.gg/B94Tc69PV6'
             >
               <span>Let's Start</span>
             </a>
