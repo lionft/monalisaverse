@@ -1,5 +1,6 @@
 import React from 'react';
 import imagesGif from '../images/image.gif';
+import GoldenTicket from './GoldenTicket';
 const Feature = () => {
   return (
     <>
@@ -83,6 +84,7 @@ const Feature = () => {
           </div>
         </div>
       </section>
+      <GoldenTicket />
     </>
   );
 };

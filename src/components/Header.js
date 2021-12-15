@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Logo from '../images/logo.jpg';
+import Logo from '../images/logo.png';
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
 
   return (
     <>
-      <nav className='bg-black py-3'>
+      <nav className='bg-black'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='flex justify-between'>
             <div className='flex'>
@@ -28,6 +28,11 @@ const Header = () => {
                 <a href='#roadmap' target='_self'>
                   <div className='text-default hover:text-primary px-3 py-2 font-medium'>
                     Roadmap
+                  </div>
+                </a>
+                <a href='#drops' target='_self'>
+                  <div className='block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white text-default'>
+                    Drops
                   </div>
                 </a>
                 <a href='#team' target='_self'>
@@ -188,6 +193,11 @@ const Header = () => {
             <a href='#roadmap' target='_self'>
               <div className='block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white text-default'>
                 Roadmap
+              </div>
+            </a>
+            <a href='#drops' target='_self'>
+              <div className='block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white text-default'>
+                Drops
               </div>
             </a>
             <a href='#team' target='_self'>

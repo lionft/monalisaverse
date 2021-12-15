@@ -3,7 +3,7 @@ import about1 from '../images/slider/1.png';
 import about2 from '../images/slider/2.png';
 import about3 from '../images/slider/3.png';
 import about4 from '../images/slider/4.png';
-import about5 from '../images/slider/5.png';
+import about5 from '../images/about.gif';
 const About = () => {
   const [showMore, setShowMore] = useState(false);
   return (

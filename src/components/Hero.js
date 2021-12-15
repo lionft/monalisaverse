@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import hero from '../images/hero-image.jpg';
+import hero from '../images/hero-image.png';
 import { useDispatch, useSelector } from 'react-redux';
 import { connect } from '../redux/blockchain/blockchainActions';
 import { fetchData } from '../redux/data/dataActions';
@@ -124,7 +124,11 @@ const Hero = () => {
                 paddingTop: '50%',
               }}
             ></div>
-            {/* <img src={hero} alt='hero' className='hero__image' /> */}
+            <img
+              src={hero}
+              alt='hero'
+              className='hero__image max-w-full w-full'
+            />
           </div>
         </div>
       </div>

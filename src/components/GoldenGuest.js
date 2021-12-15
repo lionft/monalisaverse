@@ -39,12 +39,12 @@ const GoldenGuest = () => {
       <section className='w-full mt-8 sm:mt-14 mx-auto bg-gray-section px-4 py-8 sm:pt-20 sm:pb-12'>
         <div className='sm:mx-auto pb-10 sm:pb-20 text-white max-w-7xl flex flex-col sm:flex-row sm:justify-center lg:space-x-56'>
           <h2 className=' text-center sm:text-left flex-shrink-0 text-xl sm:text-4xl tracking-wide leading-normal font-bold uppercase text-primary'>
-            Golden Guests
+            Categories
           </h2>
           <div className='flex flex-col items-center sm:items-start text-sm mt-4 sm:mt-auto sm:text-lg text-gray'>
             <div className='bcm text-center sm:text-left mb-5 leading-relaxed'>
               <p>
-                <strong>Categories</strong> <br />
+                <strong></strong> <br />
                 Backgrounds 20+, Skins 18+, Outfit 60+, Outfit 60+, Eyes 20+,
                 Face accessories 70+
               </p>

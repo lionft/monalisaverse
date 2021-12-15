@@ -1,4 +1,5 @@
 import React from 'react';
+import roadmapImage from '../images/roadmap.jpeg';
 
 const Roadmap = () => {
   return (
@@ -95,24 +96,6 @@ const Roadmap = () => {
                 the Monalisa NFTs. <br />
               </p>
             </div>
-            <div
-              className='phases__container bg-secondary py-6 px-8 rounded-md mt-10 '
-              data-aos='fade-right'
-              data-aos-duration='2700'
-            >
-              <h1 className='text-btn font-bold font-body text-4xl 2xl:text-5xl uppercase leading-10 mb-2'>
-                75%
-              </h1>
-              <p className='text-default text-base 2xl:text-2xl'>
-                We are at 3/4 of the total sale. We've decided to reward you
-                nicely! A super giveaway of 10 ETH for the Monalisa NFT owners.
-                A total of 10 prizes will be raffled off by dividing the loot
-                equally. Winners will be randomly drawn, but the more Monalisa
-                NFTs you own at the time of the giveaway, the greater your
-                chances of winning the prize.
-                <br />
-              </p>
-            </div>
 
             <div
               className='phases__container bg-secondary py-6 px-8 rounded-md mt-10 '
@@ -141,19 +124,26 @@ const Roadmap = () => {
               <h1 className='text-btn font-bold font-body text-4xl 2xl:text-5xl uppercase leading-10 mb-2'>
                 100%
               </h1>
-              <p className='text-default text-base 2xl:text-2xl'>
-                Here we are at the end, but really it's only the beginning!{' '}
-                <br />
-                With the completion of the sale of the entire project, we will
-                start digital exhibits in the Metaverse and physical exhibits in
-                multiple museums around the world, where you can participate by
-                invitation only (or owning at least 1 Monalisa NFT), where you
-                will also be able to view, buy and auction the rarest and most
-                wonderful NFTs dedicated to art. The use of the token,
-                previously created and developed, will be also encouraged,
-                having great advantages and benefits.
-                <br />
-              </p>
+              <div className='flex flex-wrap lg:flex-nowrap gap-8 items-center'>
+                <p className='text-default text-base 2xl:text-2xl '>
+                  Here we are at the end, but really it's only the beginning!{' '}
+                  <br />
+                  With the completion of the sale of the entire project, we will
+                  start digital exhibits in the Metaverse and physical exhibits
+                  in multiple museums around the world, where you can
+                  participate by invitation only (or owning at least 1 Monalisa
+                  NFT), where you will also be able to view, buy and auction the
+                  rarest and most wonderful NFTs dedicated to art. The use of
+                  the token, previously created and developed, will be also
+                  encouraged, having great advantages and benefits.
+                  <br />
+                </p>
+                <img
+                  src={roadmapImage}
+                  alt=''
+                  className='max-w-full lg:w-1/5 rounded-lg'
+                />
+              </div>
             </div>
           </div>
         </div>
