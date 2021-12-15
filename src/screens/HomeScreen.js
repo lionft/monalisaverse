@@ -17,12 +17,11 @@ const HomeScreen = () => {
       <div className='flex flex-col'>
         <Hero />
         <About />
-        <GoldenGuest />
         <Roadmap />
+        <GoldenGuest />
         <Feature />
         <Team />
         <Faq />
-        <JoinDiscord />
         <Footer />
       </div>
     </>

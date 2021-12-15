@@ -49,9 +49,9 @@ const GoldenGuest = () => {
                 Face accessories 70+
               </p>
             </div>
-            <div className='inline-block btn-gradient p-0.5 btn-animate max-w-max'>
+            <div className='inline-block btn-gradient p-0.5 btn-animate max-w-max mx-auto'>
               <a
-                href='#'
+                href='https://discord.gg/B94Tc69PV6'
                 target='_blank'
                 className='text-default uppercase font-bold text-xs sm:text-sm tracking-wider h-14 px-8 flex items-center justify-center max-w-max btn-bg-gradient'
               >

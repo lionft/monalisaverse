@@ -4,7 +4,7 @@ import roadmapImage from '../images/roadmap.jpeg';
 const Roadmap = () => {
   return (
     <>
-      <section className='roadmap py-12' id='roadmap'>
+      <section className='roadmap py-12 mt-12' id='roadmap'>
         <div className='roadmap__wrapper px-4 text-primary 2xl:px-72 mx-auto md:px-12'>
           <div
             className='roadmap__top flex flex-col pt-6'

@@ -100,7 +100,9 @@ body {
   background: #3432669e;
   z-index: 1;
 } */
-
+svg fill {
+  color: #bddd4e;
+}
 .hero__image {
   position: absolute;
   inset: 0px;
@@ -192,6 +194,6 @@ body {
 
 /* footer */
 .footer__logo {
-  max-width: 107px;
+  max-width: 300px;
   width: 100%;
 }
