@@ -51,7 +51,7 @@ const GoldenGuest = () => {
             </div>
             <div className='inline-block btn-gradient p-0.5 btn-animate max-w-max mx-auto'>
               <a
-                href='https://discord.gg/B94Tc69PV6'
+                href='https://discord.gg/KbEtpY4EVS'
                 target='_blank'
                 className='text-default uppercase font-bold text-xs sm:text-sm tracking-wider h-14 px-8 flex items-center justify-center max-w-max btn-bg-gradient'
               >

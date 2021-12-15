@@ -174,7 +174,7 @@ const Hero = () => {
                         Connect to the {CONFIG.NETWORK.NAME} network
                       </p>
 
-                      <div className='btn-gradient p-0.5 btn-animate w-80 mx-auto mt-5'>
+                      <div className='btn-gradient p-0.5 btn-animate w-56 mx-auto mt-5'>
                         <a
                           className='uppercase text-default font-bold text-sm tracking-wider h-14 px-8 flex justify-center items-center btn-bg-gradient focus:outline-none'
                           href='#'

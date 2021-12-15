@@ -14,13 +14,24 @@ const JoinDiscord = () => {
           <div className='py-6 grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-4'>
             <div className='spot__image'>
               <img src={spot1} alt='' className='max-w-full' />
+              <p className='text-sm font-bold py-4 px-2 text-left text-default'>
+                The Original Monalisa : 1/1, at auction after the Three Drops
+              </p>
             </div>
             <div className='spot__image'>
               <img src={spot2} alt='' className='max-w-full' />
+              <p className='text-sm font-bold py-4 px-2 text-left text-default'>
+                'Driver' Monalisa : The unique NFT that will give you a Tesla
+                Model S
+              </p>
             </div>
 
             <div className='spot__image'>
               <img src={spot3} alt='' className='max-w-full' />
+              <p className='text-sm font-bold py-4 px-2 text-left text-default'>
+                'Golden Ticket' Monalisa : In each drop, it's different and
+                gives you free Monalisa!
+              </p>
             </div>
           </div>
         </div>
@@ -29,7 +40,7 @@ const JoinDiscord = () => {
             <a
               target='_blank'
               className='uppercase text-default font-bold text-sm tracking-wider h-14 px-8 flex justify-center items-center btn-bg-gradient focus:outline-none'
-              href='https://discord.gg/B94Tc69PV6'
+              href='https://discord.gg/KbEtpY4EVS'
             >
               <span>Let's Start</span>
             </a>

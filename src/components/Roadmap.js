@@ -122,7 +122,7 @@ const Roadmap = () => {
               data-aos-duration='2700'
             >
               <h1 className='text-btn font-bold font-body text-4xl 2xl:text-5xl uppercase leading-10 mb-2'>
-                100%
+                99%
               </h1>
               <div className='flex flex-wrap lg:flex-nowrap gap-8 items-center'>
                 <p className='text-default text-base 2xl:text-2xl '>

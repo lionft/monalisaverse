@@ -5,7 +5,7 @@ module.exports = {
     textColor: {
       default: '#fff',
       black: '#281726',
-      primary: '#bddd4e',
+      primary: '#bdff00',
       secondary: '#b22fff',
       danger: '#e3342f',
     },

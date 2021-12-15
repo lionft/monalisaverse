@@ -96,7 +96,7 @@ const About = () => {
               </p> */}
               <h2 className='text-3xl sm:text-4xl tracking-wide font-bold mb-4 space-y-1 sm:space-y-2'>
                 <p className='text-default'>An Exclusive</p>
-                <p className='text-primary'>Monaliza</p>
+                <p className='text-primary'>Monalisaverse</p>
               </h2>
               <div
                 className='text-sm sm:text-lg text-gray font-normal mt-10'
