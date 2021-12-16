@@ -18,10 +18,10 @@ const HomeScreen = () => {
         <Hero />
         <About />
         <Roadmap />
+        <JoinDiscord />
         <GoldenGuest />
         <Feature />
         <Team />
-        <JoinDiscord />
         <Faq />
         <Footer />
       </div>
