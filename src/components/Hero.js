@@ -132,10 +132,13 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='absolute inset-0 flex justify-center'>
+      <div className='absolute inset-0 flex justify-center items-center'>
         <div className='relative'>
-          <div className='relative mx-auto mt-0 sm:mt-56 sm:w-96 z-10'>
-            <div className='relative text-center flex flex-col'>
+          <div className='relative mx-auto mt-0 z-10'>
+            <h1 className='text-center text-5xl font-bold text-primary stroke-current bg-black p-12 rounded-lg'>
+              Pre-Mint for Whitelist users on 27th Dec 2021
+            </h1>
+            {/* <div className='relative text-center flex flex-col'>
               <h3 className='font-bold text-default lg:text-4xl'>
                 {data.totalSupply} / {CONFIG.MAX_SUPPLY}
               </h3>
@@ -250,7 +253,7 @@ const Hero = () => {
                   )}
                 </>
               )}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
