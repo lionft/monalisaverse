@@ -136,8 +136,17 @@ const Hero = () => {
         <div className='relative'>
           <div className='relative mx-auto mt-0 z-10'>
             <h1 className='text-center sm:text-2xl lg:text-5xl font-bold text-primary stroke-current bg-black p-6 lg:p-12 rounded-lg'>
-              Pre-Mint for Whitelist users on 27th Dec 2021
+              Pre-Mint for Whitelist users on 28th Dec 2021
             </h1>
+            <div className='btn-gradient p-0.5 btn-animate w-56 mx-auto mt-5'>
+              <a
+                className='uppercase text-default font-bold text-sm tracking-wider h-14 px-8 flex justify-center items-center btn-bg-gradient focus:outline-none'
+                href='https://docs.google.com/forms/d/e/1FAIpQLSdYzJJbgeYTxiCzvEO7xxHpK661ujKi9jSCWbzXN2fq4UKguA/viewform?usp=pp_url'
+                target='_blank'
+              >
+                <span>Join Presale</span>
+              </a>
+            </div>
             {/* <div className='relative text-center flex flex-col'>
               <h3 className='font-bold text-default lg:text-4xl'>
                 {data.totalSupply} / {CONFIG.MAX_SUPPLY}
