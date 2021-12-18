@@ -24,7 +24,7 @@ const GoldenTicket = () => {
                   <ul>
                     <li className='py-2'>First drop: 3.333 Monalisa NFTs.</li>
                     <li className='py-2'>
-                      666 Released on December17th in Pre-Mint for the Whitelist
+                      666 Released on December28th in Pre-Mint for the Whitelist
                       members.
                     </li>
                     <li className='py-2'>3.333 Released on December 18th.</li>
