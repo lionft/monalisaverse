@@ -57,7 +57,7 @@ const Roadmap = () => {
                 A plot of Land in the Metaverse for the purpose of organizing
                 virtual art exhibitions will be purchased upon reaching the sale
                 of 33% of Monalisa NFTs (sold out of the First Drop of 3333
-                Monalisa NFTs, which will be released on December 28 th at 9pm
+                Monalisa NFTs, which will be released on December 29 th at 9pm
                 CET, with a Pre-Mint sale only for the Whitelisted members on
                 December 28 th at 9pm CET). <br />
               </p>
