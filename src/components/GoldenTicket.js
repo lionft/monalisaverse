@@ -27,7 +27,7 @@ const GoldenTicket = () => {
                       666 Released on December28th in Pre-Mint for the Whitelist
                       members.
                     </li>
-                    <li className='py-2'>3.333 Released on December 28th.</li>
+                    <li className='py-2'>3.333 Released on December 29th.</li>
                     <li className='py-2'>
                       There will be 10 ‘Golden Ticket’ Monalisa NFTs inside; If
                       you win a ‘Golden Ticket’ Monalisa NFT, in this drop, you
