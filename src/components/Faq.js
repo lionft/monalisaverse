@@ -50,7 +50,7 @@ const Faq = () => {
                 <SingleFaq
                   title='When will I get my NFTs revealed?'
                   content=' the ones of the First drop (whitelisted and non whitelisted)
-                will ne all revealed on 25th Dec at 00:00AM CET (Midnight,
+                will ne all revealed on 28th Dec at 00:00AM CET (Midnight,
                 Italy time) 🎁'
                 />
               </div>
